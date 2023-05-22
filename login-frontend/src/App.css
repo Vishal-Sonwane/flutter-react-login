@@ -1,0 +1,175 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+.App {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.input-field-username {
+  width: 70%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.error {
+  color: red;
+  margin-bottom: 20px;
+}
+
+.login-button {
+  display: block;
+  width: 74%;
+  padding: 10px;
+  background-color: #2f4f4f;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+/* .signup-button {
+  display: block;
+  width: 34%;
+  padding: 10px;
+  background-color: #2f4f4f;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.login-button-from-signup {
+  display: block;
+  width: 34%;
+  padding: 10px;
+  background-color: #2f4f4f;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+} */
+.signup-button,
+.login-button-from-signup {
+  display: inline-block;
+  width: 36%;
+  margin-right: 10px;
+  padding: 10px;
+  background-color: #2f4f4f;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.signup-button:last-child {
+  margin-right: 0;
+}
+
+
+.logout-button {
+  display: block;
+  width: 100px;
+  padding: 10px;
+  background-color: #2f4f4f;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.password-input-container {
+  position: relative;
+  display: inline-block;
+}
+
+.input-field {
+  padding-right: 2.5rem; /* add some space for the icon */
+  border-radius: 5px;
+  padding: 10px;
+  width: 418px;
+  border: 1px solid #ccc;
+}
+
+.password-toggle-icon {
+  position: absolute;
+  top: 50%;
+  right: 0.75rem; /* adjust as needed */
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+
+@media screen and (max-width: 600px) {
+  .App {
+    padding: 10px;
+  }
+
+  .input-label {
+    font-size: 14px;
+  }
+
+  .input-field {
+    font-size: 14px;
+  }
+
+  .login-button {
+    font-size: 14px;
+  }
+}
